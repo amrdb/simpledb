@@ -5,7 +5,7 @@ import simpledb.file.*;
 
 import java.util.*;
 
-public class HW3Test {
+public class LRUReplacementTest {
     private static Map<BlockId, Buffer> buffs = new HashMap<>();
     private static BufferMgr bm;
 
