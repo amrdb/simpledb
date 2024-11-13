@@ -14,6 +14,8 @@ Implementation book (2ed).
 - feat(recovery): fuzzy (non-quiescent)
   checkpoints ([commit](https://github.com/amrdb/simpledb/commit/d29e2c9725d2e68415133f660ec7c2fd1435e46f))
 
+> Note: unit tests are not written using JUnit to follow the author's style.
+
 For general information about simpledb:
 
 - [README.txt](README.txt)
