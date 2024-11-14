@@ -15,6 +15,8 @@ Implementation book (2ed).
   checkpoints ([commit](https://github.com/amrdb/simpledb/commit/d29e2c9725d2e68415133f660ec7c2fd1435e46f))
 - feat(record): support null values in fields using record's null
   bitmap ([commit](https://github.com/amrdb/simpledb/commit/2d4f589639d844f4f0a4b663832c83520e5bb639))
+- feat(tx_concurrency): use wait-die deadlock prevention algorithm
+  ([commit](https://github.com/amrdb/simpledb/commit/10a50018723a2fa6897f13840d5694c6a71036c5))
 
 > Note: unit tests are not written using JUnit to follow the author's style.
 
