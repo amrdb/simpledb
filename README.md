@@ -13,6 +13,8 @@ Implementation book (2ed).
   strategy ([commit](https://github.com/amrdb/simpledb/commit/118de84d00bf26d85b76f103c2cd6b51d6851d86))
 - feat(recovery): fuzzy (non-quiescent)
   checkpoints ([commit](https://github.com/amrdb/simpledb/commit/d29e2c9725d2e68415133f660ec7c2fd1435e46f))
+- feat(record): support null values in fields using record's null
+  bitmap ([commit](https://github.com/amrdb/simpledb/commit/2d4f589639d844f4f0a4b663832c83520e5bb639))
 
 > Note: unit tests are not written using JUnit to follow the author's style.
 
