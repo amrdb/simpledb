@@ -45,7 +45,7 @@ public class Transaction {
         this.bm = bm;
         txnum = nextTxNumber();
         recoveryMgr = new RecoveryMgr(this, txnum, lm, bm);
-        concurMgr = new ConcurrencyMgr();
+        concurMgr = new ConcurrencyMgr(txnum);
         mybuffers = new BufferList(bm);
 
         checkpointIfNeeded(txnum);
